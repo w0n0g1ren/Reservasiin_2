@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="330dp"
+    android:layout_marginBottom="5dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_cek"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/rectangle15"
+            android:layout_width="70dp"
+            android:layout_height="70dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/nama_cek"
+                android:textSize="12sp"
+                android:fontFamily="@font/seguisb"
+                android:textColor="@color/black"
+                android:text="Sushi"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:id="@+id/jumlah_cek"
+                android:textSize="12sp"
+                android:fontFamily="@font/segoeui"
+                android:textColor="@color/black"
+                android:text="Jumlah : 1"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/harga_cek"
+            android:textAlignment="textEnd"
+            android:textSize="12sp"
+            android:fontFamily="@font/seguisb"
+            android:textColor="@color/black"
+            android:text="Rp. 40.000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
